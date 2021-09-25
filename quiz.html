@@ -1,0 +1,42 @@
+<!Doctype HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/other.css">
+	<title>QUIZ</title>
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="title">
+        <img src="./images/japan2.jpg">
+                <div id="quiz">
+                    <div id="question"></div>
+                    <label class="option"><input type="radio" name="option" value="1" /><span id="option1"></span></label>
+                    <label class="option"><input type="radio" name="option" value="2" /><span id="option2"></span></label>
+                    <label class="option"><input type="radio" name="option" value="3" /><span id="option3"></span></label>
+                    <label class="option"><input type="radio" name="option" value="4" /><span id="option4"></span></label>
+
+                    <p>
+                        <progress id="bar" value="0"></progress>
+                    </p>
+
+
+                    <div class="next"><button id="next">つぎ</button></div>
+                </div>
+                <img id="img_area"  style="display:none" >
+
+                <div id="result" style="display:none"></div>
+    </div>
+                <button id="quit" onclick="quit();">やめる</button>
+	
+    
+    <script type="text/javascript" src="./js/quiz.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+	
+</body>
+</html>

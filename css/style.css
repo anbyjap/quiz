@@ -1,0 +1,33 @@
+
+
+*{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-family: "Hannari";
+}
+.title {
+  position: relative;/*相対配置*/
+  width: 100%;
+  height: auto;
+  }
+
+.title h1 {
+  position: absolute;/*絶対配置*/
+  color: red;/*文字は白に*/
+  top: 20%;
+  left: 40%;
+  }
+
+.title button {
+  position: absolute;/*絶対配置*/
+  color: red;/*文字は白に*/
+  top: 70%;
+  left: 35%;
+  padding: 35px;
+  border-radius: 50px;
+}
+
+.title img {
+  width: 100%;
+  height: 100vh;
+  }
